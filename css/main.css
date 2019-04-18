@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.egg {
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.chick {
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  position: relative;
+  top: 180px;
+  z-index: -1;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.appear {
+  position: relative;
+  top: 60px;
+  transition: 500ms;
+}
+
+
+/* Eggs Styling  */
+.egg-1 {
+  background-image: url("../images/eggs-1.png");
+}
+.egg-2 {
+  background-image: url("../images/eggs-2.png");
+}
+.egg-3 {
+  background-image: url("../images/eggs-3.png");
+}
+.egg-4 {
+  background-image: url("../images/eggs-4.png");
+}
+/* Hatchlings Styling */
+.chicken-little {
+  background-image: url("../images/hatchlings-1.png");
+}
+.peep {
+  background-image: url("../images/hatchlings-2.png");
+}
+.trex {
+  background-image: url("../images/hatchlings-3.png");
+}
+.psyduck {
+  background-image: url("../images/hatchlings-4.png");
+}
