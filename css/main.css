@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 50vh;
 }
 .egg {
   width: 300px;
@@ -9,6 +10,7 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-bottom: 10rem;
 }
 .chick {
   width: 200px;
